@@ -4,9 +4,12 @@
 #include "stdafx.h"
 #include <iostream>
 
+using namespace std;
+
+
 int main()
 {
-	std::cout << "Hello World" << std::endl;
-	std::cin.ignore();
+	cout << "Hello World" << endl;
+	cin.ignore();
 	return 0;
 }
